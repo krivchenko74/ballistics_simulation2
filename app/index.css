@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 30px 80px;
+  background-color: #f5f5f5;
+  color: #1e1e1e;
+  line-height: 150%;
+}
+input {
+  width: 140px;
+  padding: 7px 15px;
+  box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.plot {
+  max-width: 800px;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100%;
+  column-gap: 30px;
+}
+.input {
+  display: flex;
+  column-gap: 8px;
+  align-items: end;
+}
+label p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #1e1e1e;
+}
+label {
+  row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  color: #d2954e;
+  margin-bottom: 15px;
+}
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #d2954e;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button img {
+  margin-top: 2px;
+}
+h3 {
+  font-weight: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+.group {
+  padding: 5px 15px;
+  border-left: 2px solid #d2954e;
+  margin-bottom: 25px;
+}
+.answer {
+  font-size: 20px;
+  font-weight: 500;
+}
+h2 {
+  font-weight: 600;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+.main-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 40px;
+  row-gap: 30px;
+}
+.section {
+  width: 100%;
+  height: fit-content;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.05);
+  padding: 30px 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+button.disabled {
+  background-color: #cacaca;
+  color: #a2a2a2;
+  cursor: no-drop;
+}
+button.disabled img {
+  display: none;
+}
+button.disabled:hover {
+  scale: 1;
+  opacity: 1;
+}
+button.disabled:active {
+  scale: 1;
+}
+/* effects */
+button:hover {
+  scale: 1.02;
+  opacity: 0.8;
+}
+button:active {
+  scale: 0.98;
+}
